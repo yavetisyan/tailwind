@@ -3,8 +3,8 @@ import React from "react";
 const NewsLetter = () => {
   return (
     <div className="w-full text-white py-16 px-4">
-      <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3">
-        <div className="lg:col-span-2">
+      <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3 ">
+        <div className="lg:col-span-2 my-4">
           <h2 className="md:text-4xl sm:text-3xl t  ext-2xl font-bold py-2">
             Want tip & tricks to optimize your flow?
           </h2>
@@ -21,6 +21,12 @@ const NewsLetter = () => {
               Notify Me
             </button>
           </div>
+          <p>
+            We care bout the protaction of your data. Read our{" "}
+            <a href="#!" className="text-[#00df9a]">
+              Privacy Policy
+            </a>
+          </p>
         </div>
       </div>
     </div>
